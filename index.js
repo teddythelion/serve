@@ -25,7 +25,7 @@ import {
   dataOverallStat,
   dataAffiliateStat,
 } from "./data/index.js";
-
+mongoose.set('strictQuery', true);
 /* CONFIGURATION */
 dotenv.config();
 const app = express();
